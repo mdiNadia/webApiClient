@@ -1,0 +1,137 @@
+$fontColor: #70768e;
+.table {
+  font-size: 13px;
+  margin-bottom: 0;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  color: #333;
+  background-color: #fff;
+
+  input {
+    border: 1px solid #d9d9d9;
+    box-shadow: none;
+    color: #8f98af;
+    border-radius: 3px;
+    &[type="checkbox"] {
+      cursor: pointer;
+    }
+    &:focus,
+    &:active,
+    &:focus-visible {
+      outline: 1px solid #e3e8f6;
+    }
+  }
+  //////////////////////////////
+  thead {
+    tr:first-child {
+      th {
+        &:hover {
+          background: rgba(0, 0, 0, 0.04);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+    tr:nth-child(2) {
+      th {
+        &:first-child,
+        &:nth-child(2),
+        &:last-child {
+          div {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  //////////////////////////////
+
+  tr {
+    vertical-align: middle;
+    &:nth-child(even) {
+      background-color: #fafafa;
+    }
+    &:hover {
+      background-color: #fafafa;
+    }
+    th {
+      background: #fafafa;
+      border: 1px solid #f0f0f0;
+      color: #888 !important;
+      padding: 8px;
+      text-align: right;
+      direction: rtl;
+      &:last-child {
+        .fa {
+          display: none;
+          cursor: none !important;
+        }
+      }
+    }
+    td {
+      border-style: solid;
+      border: 1px solid #f0f0f0;
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+
+  tbody {
+    border-top: none !important;
+  }
+}
+.tablefooter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  //background: #f4f6fb;
+  //border-bottom: 1px solid #c4c4c4;
+  color: #888 !important;
+  padding: 8px 0;
+  text-align: right;
+  direction: rtl;
+  font-size: 13px;
+  // box-shadow: inset 8px 0px 20px 12px #e8e8e8;
+}
+.page-link {
+  cursor: pointer;
+}
+.page-link.disable {
+  color: #d2d2d2 !important;
+  background-color: #f1f2f6 !important;
+  cursor: text;
+}
+.page-link {
+  color: #001529;
+}
+.page-item.active {
+  .page-link {
+    background-color: #001529;
+    border-color: #001529;
+  }
+}
+.search-content {
+  display: inherit;
+  flex-wrap: nowrap;
+  position: relative;
+  .clear-search {
+    border: 2px solid #f0f0f0;
+    outline: 1px solid #d1d1d1;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    background: #d1d1d1;
+    i {
+      padding: 0 5px;
+      color: #f0f0f0;
+      vertical-align: middle;
+    }
+  }
+}
+.clickable {
+  cursor: pointer;
+}

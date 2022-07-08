@@ -1,0 +1,141 @@
+.table {
+  font-size: 13px;
+  margin-bottom: 0;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  color: #333;
+  background-color: #fff;
+}
+
+.table input {
+  border: 1px solid #d9d9d9;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #8f98af;
+  border-radius: 3px;
+}
+
+.table input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.table input:focus, .table input:active, .table input:focus-visible {
+  outline: 1px solid #e3e8f6;
+}
+
+.table thead tr:first-child th:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.table thead tr:first-child th:nth-child(2) {
+  display: none;
+}
+
+.table thead tr:nth-child(2) th:first-child div, .table thead tr:nth-child(2) th:nth-child(2) div, .table thead tr:nth-child(2) th:last-child div {
+  display: none;
+}
+
+.table tr {
+  vertical-align: middle;
+}
+
+.table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.table tr:hover {
+  background-color: #fafafa;
+}
+
+.table tr th {
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+  color: #888 !important;
+  padding: 8px;
+  text-align: right;
+  direction: rtl;
+}
+
+.table tr th:last-child .fa {
+  display: none;
+  cursor: none !important;
+}
+
+.table tr td {
+  border-style: solid;
+  border: 1px solid #f0f0f0;
+}
+
+.table tr td img {
+  border-radius: 5px;
+}
+
+.table tbody {
+  border-top: none !important;
+}
+
+.tablefooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #888 !important;
+  padding: 8px 0;
+  text-align: right;
+  direction: rtl;
+  font-size: 13px;
+}
+
+.page-link {
+  cursor: pointer;
+}
+
+.page-link.disable {
+  color: #d2d2d2 !important;
+  background-color: #f1f2f6 !important;
+  cursor: text;
+}
+
+.page-link {
+  color: #001529;
+}
+
+.page-item.active .page-link {
+  background-color: #001529;
+  border-color: #001529;
+}
+
+.search-content {
+  display: inherit;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  position: relative;
+}
+
+.search-content .clear-search {
+  border: 2px solid #f0f0f0;
+  outline: 1px solid #d1d1d1;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: -7px;
+  background: #d1d1d1;
+}
+
+.search-content .clear-search i {
+  padding: 0 5px;
+  color: #f0f0f0;
+  vertical-align: middle;
+}
+
+.clickable {
+  cursor: pointer;
+}
+/*# sourceMappingURL=table.css.map */

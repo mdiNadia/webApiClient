@@ -1,0 +1,48 @@
+.MuiPickersModal-dialogRoot{
+  direction: ltr;
+  & h2, h6, span{
+    font-family: Iransans;
+  }
+}
+.rdp__input--start, .rdp__input--end
+{
+  display: block;
+    width: 100%;
+    height: calc(1.5em + 1.3rem + 2px);
+    padding: 0.65rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3f4254;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e4e6ef;
+    border-radius: 0.42rem;
+}
+.MuiInput-input{
+  font-family: Iransans !important;
+}
+
+.timepicker-aqua-color{
+  div::after{
+    border-bottom: 2px solid  var(--theme-aqua) ;
+  }
+}
+
+.MuiPickersModal-dialogRoot {
+  .MuiPickersToolbar-toolbar{
+    background-color: var(--theme-aqua);
+  }
+  .MuiPickersClock-pin{
+    background-color: var(--theme-aqua);
+  }
+  .MuiPickersClockPointer-pointer{
+    background-color: var(--theme-aqua);
+  }
+  .MuiPickersClockPointer-thumb{
+    border: 14px solid var(--theme-aqua);
+  }
+  .MuiButton-textPrimary{
+    color: var(--theme-aqua);
+  }
+}
